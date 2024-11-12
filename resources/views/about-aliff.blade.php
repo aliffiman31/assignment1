@@ -206,8 +206,15 @@
 
 <style>
 /* Profile picture animation */
+/* Profile picture styling */
 .profile-pic {
-    width: 150px;
-    height: 150px;
-}
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 4px solid;
+        background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Border gradient */
+        padding: 3px; /* Gap around the picture */
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+    }
 </style>

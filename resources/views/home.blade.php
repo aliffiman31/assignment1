@@ -8,28 +8,28 @@
             <div class="team-card text-center m-3 p-4 rounded">
                 <img src="{{ asset('Assets/avatar2.png') }}" alt="Member Picture" class="img-fluid rounded-circle mb-3 profile-pic">
                 <h2 class="member-name">MUHAMMAD AFIQ BIN APANDI</h2>
-                <p class="member-position">Software Developer</p>
+                <p class="member-position">CB21034</p>
             </div>
 
             <!-- Team Member Card 2 -->
             <div class="team-card text-center m-3 p-4 rounded">
                 <img src="{{ asset('Assets/avatar.png') }}" alt="Member Picture" class="img-fluid rounded-circle mb-3 profile-pic">
                 <h2 class="member-name">MUHAMMAD ALIFF I'MAN BIN ZAIRI</h2>
-                <p class="member-position">Full Stack Developer</p>
+                <p class="member-position">CB21081</p>
             </div>
 
             <!-- Team Member Card 3 -->
             <div class="team-card text-center m-3 p-4 rounded">
                 <img src="{{ asset('Assets/indian-girl.png') }}" alt="Member Picture" class="img-fluid rounded-circle mb-3 profile-pic">
                 <h2 class="member-name">SANDHIYA A/P PICHAN</h2>
-                <p class="member-position">Front-End Developer</p>
+                <p class="member-position">CB22050</p>
             </div>
 
             <!-- Team Member Card 4 -->
             <div class="team-card text-center m-3 p-4 rounded ">
                 <img src="{{ asset('Assets/hijab.png') }}" alt="Member Picture" class="img-fluid rounded-circle mb-3 profile-pic">
                 <h2 class="member-name">IMAN HAJAR MERICAN BINTI MD YUSOFF MERICAN</h2>
-                <p class="member-position">Back-End Developer</p>
+                <p class="member-position">CD21092</p>
             </div>
         </div>
     </div>
