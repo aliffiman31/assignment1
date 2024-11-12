@@ -8,46 +8,47 @@
     <!-- Include Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
+        /* Base styling */
         html,
         body {
-            height: 100vh;
+            height: 100%;
             margin: 0;
             padding: 0;
             overflow-x: hidden;
             /* Prevents horizontal scrolling */
         }
 
-        /* Custom styles for navbar and layout */
-        body {
-            margin: 0;
-            /* Remove default margin */
-        }
-
+        /* Custom styles for navbar */
         .navbar {
             background-color: #343a40;
-            /* Dark background for navbar */
         }
 
         .navbar-brand,
         .nav-link {
             color: #ffffff !important;
-            /* White text color for links */
         }
 
         .nav-link:hover {
             color: #ffc107 !important;
-            /* Gold color on hover */
         }
 
-        .navbar-nav {
-            margin-left: auto;
-            /* Push navbar items to the right */
+        /* Layout for main content */
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
         }
 
-        /* Padding to ensure no content overlaps */
         main {
-            padding: 20px;
-            /* Adjust padding as needed */
+            flex: 1;
+            padding-top: 70px; /* Add padding equal to navbar height */
+            padding-bottom: 20px; /* Optional: add bottom padding */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #1e1e1e;
+            position: relative;
         }
     </style>
 </head>
@@ -75,13 +76,9 @@
     </nav>
 
     <!-- Main Content Area -->
-
-    <body class="bg-dark">
-        <main class="fullscreen-container">
-            @yield('content')
-        </main>
-    </body>
-
+    <main>
+        @yield('content')
+    </main>
 
     <!-- Optional Bootstrap JS and jQuery for interactive components -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

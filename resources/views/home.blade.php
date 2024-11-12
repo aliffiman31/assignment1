@@ -1,28 +1,125 @@
 @extends('layouts.master')
 
-<!-- Link to CSS file -->
-<link href="{{ asset('css/style.css') }}" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
-
 @section('content')
-<div class="fullscreen-container text-white">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-8 text-start">
-                <section>
-                    <h1 class="display-4">Hazel Montromery</h1>
-                    <h3 class="typing-animation">Software Developer</h3>
-                    <p class="mt-3">
-                        Hi! I am a passionate Software Developer focused on creating efficient and user-friendly web and mobile applications.
-                        Currently, I am a final-year student pursuing a Bachelor's in Computer Science (Software Engineering),
-                        with skills in Laravel, Flutter, and Android Studio. I’m dedicated to making impactful software solutions.
-                    </p>
-                </section>
+<div class="fullscreen-container text-white" style="margin-top: 80px;">
+    <div class="container-fluid"> <!-- Changed to container-fluid for full-width layout -->
+        <div class="team-grid d-flex flex-wrap justify-content-center">
+            <!-- Team Member Card 1 -->
+            <div class="team-card text-center m-3 p-4 rounded">
+                <img src="{{ asset('Assets/avatar2.png') }}" alt="Member Picture" class="img-fluid rounded-circle mb-3 profile-pic">
+                <h2 class="member-name">MUHAMMAD AFIQ BIN APANDI</h2>
+                <p class="member-position">Software Developer</p>
             </div>
-            <div class="col-lg-4 text-center">
-                <img src="{{ asset('Assets/avatar.png') }}" alt="Your Picture" class="img-fluid rounded-circle" style="max-width: 300px;">
+
+            <!-- Team Member Card 2 -->
+            <div class="team-card text-center m-3 p-4 rounded">
+                <img src="{{ asset('Assets/avatar.png') }}" alt="Member Picture" class="img-fluid rounded-circle mb-3 profile-pic">
+                <h2 class="member-name">MUHAMMAD ALIFF I'MAN BIN ZAIRI</h2>
+                <p class="member-position">Full Stack Developer</p>
+            </div>
+
+            <!-- Team Member Card 3 -->
+            <div class="team-card text-center m-3 p-4 rounded">
+                <img src="{{ asset('Assets/indian-girl.png') }}" alt="Member Picture" class="img-fluid rounded-circle mb-3 profile-pic">
+                <h2 class="member-name">SANDHIYA A/P PICHAN</h2>
+                <p class="member-position">Front-End Developer</p>
+            </div>
+
+            <!-- Team Member Card 4 -->
+            <div class="team-card text-center m-3 p-4 rounded ">
+                <img src="{{ asset('Assets/hijab.png') }}" alt="Member Picture" class="img-fluid rounded-circle mb-3 profile-pic">
+                <h2 class="member-name">IMAN HAJAR MERICAN BINTI MD YUSOFF MERICAN</h2>
+                <p class="member-position">Back-End Developer</p>
             </div>
         </div>
     </div>
 </div>
 @endsection
+
+<style>
+/* Card styling */
+.team-card {
+    background: linear-gradient(145deg, #2d2d2d, #1a1a1a);
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+    position: relative;
+    overflow: hidden;
+    width: 250px; /* Set fixed width for uniform sizing */
+}
+
+/* Hover animation */
+.team-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.7);
+}
+
+/* Gradient overlay */
+.team-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -75%;
+    width: 150%;
+    height: 100%;
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0));
+    transition: 0.5s;
+    transform: skewX(-30deg);
+}
+
+.team-card:hover::before {
+    left: 100%;
+}
+
+/* Text styling */
+.member-name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #ff7e5f;
+    margin-top: 10px;
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+.member-position {
+    font-size: 1rem;
+    color: #feb47b;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+/* Profile picture animation */
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    transition: transform 0.3s ease;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
+}
+
+.team-card:hover .profile-pic {
+    transform: scale(1.1) rotate(5deg);
+}
+
+/* Align cards in a single row on large screens */
+.team-grid {
+    gap: 20px;
+    max-width: 1200px; /* Adjust max-width for full-row display */
+}
+
+/* Responsive breakpoints */
+@media (max-width: 992px) {
+    .team-grid {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 768px) {
+    .team-card {
+        width: 100%;
+    }
+}
+</style>
