@@ -15,21 +15,60 @@
             margin: 0;
             padding: 0;
             overflow-x: hidden;
-            /* Prevents horizontal scrolling */
         }
 
-        /* Custom styles for navbar */
+        /* Navbar styling with slight left padding */
         .navbar {
             background-color: #343a40;
+            padding: 0.8rem 1.5rem 0.8rem 2rem; /* Left padding to add slight space */
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
         }
 
-        .navbar-brand,
+        .navbar-brand {
+            color: #ffffff !important;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
         .nav-link {
             color: #ffffff !important;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background 0.3s, color 0.3s;
         }
 
         .nav-link:hover {
             color: #ffc107 !important;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        /* Dropdown menu styling */
+        .dropdown-menu {
+            background-color: #444950;
+            border-radius: 8px;
+            padding: 0.5rem 0;
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+            border: none;
+        }
+
+        .dropdown-item {
+            color: #ffffff;
+            font-weight: 500;
+            padding: 0.5rem 1.5rem;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        .dropdown-item:hover {
+            color: #ffc107;
+            background-color: #555a60;
+        }
+
+        /* Responsive alignment for the navbar */
+        @media (max-width: 992px) {
+            .navbar-nav {
+                margin-left: auto;
+            }
         }
 
         /* Layout for main content */
@@ -42,8 +81,8 @@
 
         main {
             flex: 1;
-            padding-top: 70px; /* Add padding equal to navbar height */
-            padding-bottom: 20px; /* Optional: add bottom padding */
+            padding-top: 70px;
+            padding-bottom: 20px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -65,8 +104,17 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('home') }}">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('about') }}">About Me</a>
+                <!-- About Me Dropdown Menu -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About Me
+                    </a>
+                    <div class="dropdown-menu text-center" aria-labelledby="aboutDropdown">
+                        <a class="dropdown-item" href="#member1">Afiq</a>
+                        <a class="dropdown-item" href="{{ route('aliff-detail') }}">Aliff</a>
+                        <a class="dropdown-item" href="#member3">Sandhiya</a>
+                        <a class="dropdown-item" href="#member4">Iman</a>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('contact') }}">Contact</a>
