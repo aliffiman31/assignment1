@@ -1,0 +1,81 @@
+/* Base styles - enable overflow only when needed */
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Default: disable scrolling */
+    height: 100%;
+    width: 100%;
+}
+
+/* Fullscreen container styling */
+.fullscreen-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e1e1e;
+}
+
+/* Enable scrolling for smaller screen sizes */
+@media (max-width: 992px) { /* Adjust breakpoint as needed */
+    html, body {
+        overflow: auto; /* Allow scrolling on smaller screens */
+    }
+}
+
+
+/* Remove container padding if needed */
+.container {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.display-4 {
+  font-size: 3rem;
+  font-weight: 800;
+  background: linear-gradient(90deg, #ff7e5f, #feb47b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradientShift 5s infinite alternate;
+}
+
+.typing-animation {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #feb47b;
+  border-right: 2px solid #feb47b;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3.5s steps(19, end) 1s infinite alternate,
+    blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #feb47b;
+  }
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
