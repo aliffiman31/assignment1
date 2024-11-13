@@ -202,7 +202,11 @@
                                         alt="Android Studio" width="48" height="48">
                                     <p class="mt-2">Android Studio</p>
                                 </div>
-
+                                <div class="col-4 col-md-3 mb-4">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"
+                                        alt="FlutterFlow" width="48" height="48">
+                                    <p class="mt-2">FlutterFlow</p>
+                                </div>
                             </div>
                         </div>
                     </div>
