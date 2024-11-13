@@ -13,15 +13,32 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+//root
 Route::get('/', function () {
     return view('home');
 })->name('home');
 
-Route::get('/contact', function () {
-    return view('contact');
-})->name('contact');
+
+//about route(all members)
+Route::get('/afiq-detail', function () {
+    return view('about-afiq');
+})->name('afiq-detail');
 
 Route::get('/aliff-detail', function () {
     return view('about-aliff');
 })->name('aliff-detail');
 
+Route::get('/sandhiya-detail', function () {
+    return view('about-sandhiya');
+})->name('sandhiya-detail');
+
+Route::get('/iman-detail', function () {
+    return view('about-iman');
+})->name('iman-detail');
+
+
+//contact route
+Route::get('/contact', function () {
+    return view('contact');
+})->name('contact');

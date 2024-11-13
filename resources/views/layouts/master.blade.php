@@ -110,10 +110,10 @@
                         About Me
                     </a>
                     <div class="dropdown-menu text-center" aria-labelledby="aboutDropdown">
-                        <a class="dropdown-item" href="#member1">Afiq</a>
+                        <a class="dropdown-item" href="{{ route('afiq-detail') }}">Afiq</a>
                         <a class="dropdown-item" href="{{ route('aliff-detail') }}">Aliff</a>
-                        <a class="dropdown-item" href="#member3">Sandhiya</a>
-                        <a class="dropdown-item" href="#member4">Iman</a>
+                        <a class="dropdown-item" href="{{ route('sandhiya-detail') }}">Sandhiya</a>
+                        <a class="dropdown-item" href="{{ route('iman-detail') }}">Iman</a>
                     </div>
                 </li>
                 <li class="nav-item">
