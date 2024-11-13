@@ -123,7 +123,7 @@
                     <div class="inner-card p-3">
                         <h5 class="card-title">Education</h5>
                         <p>Bachelor of Computer Science (Software Engineering)</p>
-                        <p>Universiti Malaysia Pahang Al Sultan Abdullah (UMPSA)</p>
+                        <p>Universiti Malays Pahang Al Sultan Abdullah (UMPSA)</p>
                         <p>Expected Graduation: 2025</p>
                     </div>
                 </div>
