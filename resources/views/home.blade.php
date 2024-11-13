@@ -27,7 +27,7 @@
 
             <!-- Team Member Card 4 -->
             <div class="team-card text-center m-3 p-4 rounded ">
-                <img src="{{ asset('Assets/hijab.png') }}" alt="Member Picture" class="img-fluid rounded-circle mb-3 profile-pic">
+                <img src="{{ asset('Assets/Girl.png') }}" alt="Member Picture" class="img-fluid rounded-circle mb-3 profile-pic">
                 <h2 class="member-name">IMAN HAJAR MERICAN BINTI MD YUSOFF MERICAN</h2>
                 <p class="member-position">CD21092</p>
             </div>
