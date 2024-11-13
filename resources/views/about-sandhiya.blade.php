@@ -109,9 +109,9 @@
             <div class="card shadow-lg border-0">
                 <div class="card-body">
 
-                <div class="team-card text-center m-3 p-4 rounded">
-                <img src="{{ asset('Assets/indian-girl.png') }}" alt="Member Picture" class="img-fluid rounded-circle mb-3 profile-pic">
-            </div>
+                    <div class="team-card text-center m-3 p-4 rounded">
+                        <img src="{{ asset('Assets/indian-girl.png') }}" alt="Member Picture" class="img-fluid rounded-circle mb-3 profile-pic">
+                    </div>
                     <!-- Details Inner Card -->
                     <div class="inner-card p-3 mb-3">
                         <h5 class="card-title">Details</h5>
@@ -205,16 +205,18 @@
 @endsection
 
 <style>
-/* Profile picture animation */
-/* Profile picture styling */
-.profile-pic {
+    /* Profile picture animation */
+    /* Profile picture styling */
+    .profile-pic {
         width: 150px;
         height: 150px;
         object-fit: cover;
         border-radius: 50%;
         border: 4px solid;
-        background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Border gradient */
-        padding: 3px; /* Gap around the picture */
+        background: linear-gradient(135deg, #ff7e5f, #feb47b);
+        /* Border gradient */
+        padding: 3px;
+        /* Gap around the picture */
         box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
     }
 </style>

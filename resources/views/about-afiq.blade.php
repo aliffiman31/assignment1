@@ -102,180 +102,180 @@
 </style>
 
 @section('content')
-    <div class="container main-container">
+<div class="container main-container">
 
-        <div class="mb-4">
-            <h1 class="text-center card-title">Hi, I'm Muhammad Afiq bin Apandi</h1>
+    <div class="mb-4">
+        <h1 class="text-center card-title">Hi, I'm Muhammad Afiq bin Apandi</h1>
+    </div>
+    <div class="row">
+        <!-- Left Section: Personal Details and Education -->
+        <div class="col-md-5 mb-4">
+            <div class="card shadow-lg border-0">
+                <div class="card-body">
+
+                    <div class="team-card text-center m-3 p-4 rounded">
+                        <img src="{{ asset('Assets/afiq.png') }}" alt="Member Picture"
+                            class="img-fluid rounded-circle mb-3 profile-pic">
+                    </div>
+                    <!-- Details Inner Card -->
+                    <div class="inner-card p-3 mb-3">
+                        <h5 class="card-title">About Me</h5>
+                        <p class="card-text">
+                            Hello! I'm Muhammad Afiq bin Apandi, a final-year Computer Science (Software Engineering)
+                            student at Universiti Malaysia Pahang Al Sultan Abdullah (UMPSA). I have a strong passion
+                            for software development and enjoy crafting efficient, user-centered web and mobile
+                            applications.
+                        </p>
+                    </div>
+                    <!-- Education Inner Card -->
+                    <div class="inner-card p-3">
+                        <h5 class="card-title">Education</h5>
+                        <p>Bachelor’s Degree in Computer Science, specializing in Software Engineering</p>
+                        <p>Universiti Malaysia Pahang Al-Sultan Abdullah (UMPSA)</p>
+                        <p>Anticipated Graduation: 2025</p>
+                    </div>
+
+                </div>
+            </div>
         </div>
-        <div class="row">
-            <!-- Left Section: Personal Details and Education -->
-            <div class="col-md-5 mb-4">
-                <div class="card shadow-lg border-0">
-                    <div class="card-body">
 
-                        <div class="team-card text-center m-3 p-4 rounded">
-                            <img src="{{ asset('Assets/afiq.png') }}" alt="Member Picture"
-                                class="img-fluid rounded-circle mb-3 profile-pic">
+        <!-- Right Section: Skills and Tools -->
+        <div class="col-md-7">
+            <!-- Skills Section -->
+            <div class="card shadow-lg border-0 mb-4">
+                <div class="card-body">
+                    <div class="inner-card p-3 mb-3">
+                        <h4 class="card-title mb-4 text-center">Skills</h4>
+                        <div class="row text-center">
+                            <!-- Skill icons -->
+                            <div class="col-4 col-md-3 mb-4">
+                                <i class="fab fa-html5 text-warning skill-icon"></i>
+                                <p class="mt-2">HTML</p>
+                            </div>
+                            <div class="col-4 col-md-3 mb-4">
+                                <i class="fab fa-css3-alt text-primary skill-icon"></i>
+                                <p class="mt-2">CSS</p>
+                            </div>
+                            <div class="col-4 col-md-3 mb-4">
+                                <i class="fab fa-js-square text-warning skill-icon"></i>
+                                <p class="mt-2">JavaScript</p>
+                            </div>
+                            <div class="col-4 col-md-3 mb-4">
+                                <i class="fab fa-laravel text-danger skill-icon"></i>
+                                <p class="mt-2">Laravel</p>
+                            </div>
+                            <div class="col-4 col-md-3 mb-4">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+                                    alt="PHP" width="48" height="48">
+                                <p class="mt-2">PHP</p>
+                            </div>
+                            <div class="col-4 col-md-3 mb-4">
+                                <i class="fas fa-database text-success skill-icon"></i>
+                                <p class="mt-2">MySQL</p>
+                            </div>
+                            <div class="col-4 col-md-3 mb-4">
+                                <i class="fas fa-fire text-warning skill-icon"></i>
+                                <p class="mt-2">Firebase</p>
+                            </div>
+                            <div class="col-4 col-md-3 mb-4">
+                                <i class="fab fa-java text-danger skill-icon"></i>
+                                <p class="mt-2">Java</p>
+                            </div>
                         </div>
-                        <!-- Details Inner Card -->
-                        <div class="inner-card p-3 mb-3">
-                            <h5 class="card-title">About Me</h5>
-                            <p class="card-text">
-                                Hello! I'm Muhammad Afiq bin Apandi, a final-year Computer Science (Software Engineering)
-                                student at Universiti Malaysia Pahang Al Sultan Abdullah (UMPSA). I have a strong passion
-                                for software development and enjoy crafting efficient, user-centered web and mobile
-                                applications.
-                            </p>
-                        </div>
-                        <!-- Education Inner Card -->
-                        <div class="inner-card p-3">
-                            <h5 class="card-title">Education</h5>
-                            <p>Bachelor’s Degree in Computer Science, specializing in Software Engineering</p>
-                            <p>Universiti Malaysia Pahang Al-Sultan Abdullah (UMPSA)</p>
-                            <p>Anticipated Graduation: 2025</p>
-                        </div>
-
                     </div>
                 </div>
             </div>
 
-            <!-- Right Section: Skills and Tools -->
-            <div class="col-md-7">
-                <!-- Skills Section -->
-                <div class="card shadow-lg border-0 mb-4">
-                    <div class="card-body">
-                        <div class="inner-card p-3 mb-3">
-                            <h4 class="card-title mb-4 text-center">Skills</h4>
-                            <div class="row text-center">
-                                <!-- Skill icons -->
-                                <div class="col-4 col-md-3 mb-4">
-                                    <i class="fab fa-html5 text-warning skill-icon"></i>
-                                    <p class="mt-2">HTML</p>
-                                </div>
-                                <div class="col-4 col-md-3 mb-4">
-                                    <i class="fab fa-css3-alt text-primary skill-icon"></i>
-                                    <p class="mt-2">CSS</p>
-                                </div>
-                                <div class="col-4 col-md-3 mb-4">
-                                    <i class="fab fa-js-square text-warning skill-icon"></i>
-                                    <p class="mt-2">JavaScript</p>
-                                </div>
-                                <div class="col-4 col-md-3 mb-4">
-                                    <i class="fab fa-laravel text-danger skill-icon"></i>
-                                    <p class="mt-2">Laravel</p>
-                                </div>
-                                <div class="col-4 col-md-3 mb-4">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
-                                        alt="PHP" width="48" height="48">
-                                    <p class="mt-2">PHP</p>
-                                </div>
-                                <div class="col-4 col-md-3 mb-4">
-                                    <i class="fas fa-database text-success skill-icon"></i>
-                                    <p class="mt-2">MySQL</p>
-                                </div>
-                                <div class="col-4 col-md-3 mb-4">
-                                    <i class="fas fa-fire text-warning skill-icon"></i>
-                                    <p class="mt-2">Firebase</p>
-                                </div>
-                                <div class="col-4 col-md-3 mb-4">
-                                    <i class="fab fa-java text-danger skill-icon"></i>
-                                    <p class="mt-2">Java</p>
-                                </div>
+            <!-- Tools Section -->
+            <div class="card shadow-lg border-0 mb-4">
+                <div class="card-body">
+                    <div class="inner-card p-3">
+                        <h4 class="card-title mb-4 text-center">Tools</h4>
+                        <div class="row text-center">
+                            <!-- Tool icons -->
+                            <div class="col-4 col-md-3 mb-4">
+                                <i class="fab fa-github text-light skill-icon"></i>
+                                <p class="mt-2">GitHub</p>
+                            </div>
+                            <div class="col-4 col-md-3 mb-4">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg"
+                                    alt="Android Studio" width="48" height="48">
+                                <p class="mt-2">Android Studio</p>
+                            </div>
+                            <div class="col-4 col-md-3 mb-4">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"
+                                    alt="FlutterFlow" width="48" height="48">
+                                <p class="mt-2">FlutterFlow</p>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- Tools Section -->
-                <div class="card shadow-lg border-0 mb-4">
-                    <div class="card-body">
-                        <div class="inner-card p-3">
-                            <h4 class="card-title mb-4 text-center">Tools</h4>
-                            <div class="row text-center">
-                                <!-- Tool icons -->
-                                <div class="col-4 col-md-3 mb-4">
-                                    <i class="fab fa-github text-light skill-icon"></i>
-                                    <p class="mt-2">GitHub</p>
-                                </div>
-                                <div class="col-4 col-md-3 mb-4">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg"
-                                        alt="Android Studio" width="48" height="48">
-                                    <p class="mt-2">Android Studio</p>
-                                </div>
-                                <div class="col-4 col-md-3 mb-4">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"
-                                        alt="FlutterFlow" width="48" height="48">
-                                    <p class="mt-2">FlutterFlow</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Soft Skills Section -->
-                <div class="card shadow-lg border-0 mb-4">
-                    <div class="card-body">
-                        <div class="inner-card p-3">
-                            <h4 class="card-title mb-4 text-center">Soft Skills</h4>
-                            <div class="row text-center">
-                                <!-- Soft Skill Icons -->
-                                <div class="col-4 col-md-4 mb-4">
-                                    <i class="fas fa-language text-info skill-icon"></i>
-                                    <p class="mt-2">Fluent in Malay</p>
-                                </div>
-                                <div class="col-4 col-md-4 mb-4">
-                                    <i class="fas fa-language text-success skill-icon"></i>
-                                    <p class="mt-2">Fluent in English</p>
-                                </div>
-                                <div class="col-4 col-md-4 mb-4">
-                                    <i class="fas fa-microphone text-primary skill-icon"></i>
-                                    <p class="mt-2">Effective Presenter</p>
-                                </div>
-                                <div class="col-4 col-md-4 mb-4">
-                                    <i class="fas fa-users text-warning skill-icon"></i>
-                                    <p class="mt-2">Team Player</p>
-                                </div>
-                                <div class="col-4 col-md-4 mb-4">
-                                    <i class="fas fa-briefcase text-danger skill-icon"></i>
-                                    <p class="mt-2">Problem-Solving</p>
-                                </div>
-                                <div class="col-4 col-md-4 mb-4">
-                                    <i class="fas fa-clock text-secondary skill-icon"></i>
-                                    <p class="mt-2">Time Management</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Certification Section -->
-                <div class="card shadow-lg border-0 mb-4">
-                    <div class="card-body">
-                        <div class="inner-card p-3">
-                            <h4 class="card-title mb-4 text-center">Certifications</h4>
-                            <div class="row text-center">
-                                <!-- Certification Items -->
-                                <div class="col-6 col-md-4 mb-4">
-                                    <i class="fas fa-certificate text-primary skill-icon"></i>
-                                    <p class="mt-2">Web Development Bootcamp</p>
-                                </div>
-                                <div class="col-6 col-md-4 mb-4">
-                                    <i class="fas fa-certificate text-success skill-icon"></i>
-                                    <p class="mt-2">Software Engineering Essentials</p>
-                                </div>
-                                <div class="col-6 col-md-4 mb-4">
-                                    <i class="fas fa-certificate text-warning skill-icon"></i>
-                                    <p class="mt-2">Firebase for Web Developers</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
             </div>
+
+            <!-- Soft Skills Section -->
+            <div class="card shadow-lg border-0 mb-4">
+                <div class="card-body">
+                    <div class="inner-card p-3">
+                        <h4 class="card-title mb-4 text-center">Soft Skills</h4>
+                        <div class="row text-center">
+                            <!-- Soft Skill Icons -->
+                            <div class="col-4 col-md-4 mb-4">
+                                <i class="fas fa-language text-info skill-icon"></i>
+                                <p class="mt-2">Fluent in Malay</p>
+                            </div>
+                            <div class="col-4 col-md-4 mb-4">
+                                <i class="fas fa-language text-success skill-icon"></i>
+                                <p class="mt-2">Fluent in English</p>
+                            </div>
+                            <div class="col-4 col-md-4 mb-4">
+                                <i class="fas fa-microphone text-primary skill-icon"></i>
+                                <p class="mt-2">Effective Presenter</p>
+                            </div>
+                            <div class="col-4 col-md-4 mb-4">
+                                <i class="fas fa-users text-warning skill-icon"></i>
+                                <p class="mt-2">Team Player</p>
+                            </div>
+                            <div class="col-4 col-md-4 mb-4">
+                                <i class="fas fa-briefcase text-danger skill-icon"></i>
+                                <p class="mt-2">Problem-Solving</p>
+                            </div>
+                            <div class="col-4 col-md-4 mb-4">
+                                <i class="fas fa-clock text-secondary skill-icon"></i>
+                                <p class="mt-2">Time Management</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certification Section -->
+            <div class="card shadow-lg border-0 mb-4">
+                <div class="card-body">
+                    <div class="inner-card p-3">
+                        <h4 class="card-title mb-4 text-center">Certifications</h4>
+                        <div class="row text-center">
+                            <!-- Certification Items -->
+                            <div class="col-6 col-md-4 mb-4">
+                                <i class="fas fa-certificate text-primary skill-icon"></i>
+                                <p class="mt-2">Web Development Bootcamp</p>
+                            </div>
+                            <div class="col-6 col-md-4 mb-4">
+                                <i class="fas fa-certificate text-success skill-icon"></i>
+                                <p class="mt-2">Software Engineering Essentials</p>
+                            </div>
+                            <div class="col-6 col-md-4 mb-4">
+                                <i class="fas fa-certificate text-warning skill-icon"></i>
+                                <p class="mt-2">Firebase for Web Developers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </div>
+</div>
 @endsection
 
 <style>

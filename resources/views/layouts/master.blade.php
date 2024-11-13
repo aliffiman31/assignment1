@@ -20,7 +20,8 @@
         /* Navbar styling with slight left padding */
         .navbar {
             background-color: #343a40;
-            padding: 0.8rem 1.5rem 0.8rem 2rem; /* Left padding to add slight space */
+            padding: 0.8rem 1.5rem 0.8rem 2rem;
+            /* Left padding to add slight space */
             box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
         }
 
