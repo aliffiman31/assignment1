@@ -116,7 +116,7 @@
                     <div class="inner-card p-3 mb-3">
                         <h5 class="card-title">Details</h5>
                         <p class="card-text">
-                            Hi! I'm a passionate Software Developer and final-year student pursuing a Bachelor's in Computer Science (Software Engineering) at Universiti Malaysia Pahang Al Sultan Abdullah (UMPSA). I am dedicated to creating efficient and user-friendly web and mobile applications.
+                            Hi! I'm Aliff I'man, a passionate Software Developer and a final-year student pursuing a Bachelor's in Computer Science (Software Engineering) at Universiti Malaysia Pahang Al Sultan Abdullah (UMPSA). I am dedicated to creating efficient and user-friendly web and mobile applications.
                         </p>
                     </div>
                     <!-- Education Inner Card -->
