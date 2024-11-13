@@ -110,7 +110,7 @@
                 <div class="card-body">
 
                     <div class="team-card text-center m-3 p-4 rounded">
-                        <img src="{{ asset('Assets/indian-girl.png') }}" alt="Member Picture" class="img-fluid rounded-circle mb-3 profile-pic">
+                        <img src="{{ asset('Assets/sandhiya.png') }}" alt="Member Picture" class="img-fluid rounded-circle mb-3 profile-pic">
                     </div>
                     <!-- Details Inner Card -->
                     <div class="inner-card p-3 mb-3">
@@ -123,7 +123,7 @@
                     <div class="inner-card p-3">
                         <h5 class="card-title">Education</h5>
                         <p>Bachelor of Computer Science (Software Engineering)</p>
-                        <p>Universiti Malays Pahang Al Sultan Abdullah (UMPSA)</p>
+                        <p>Universiti Malaysia Pahang Al Sultan Abdullah (UMPSA)</p>
                         <p>Expected Graduation: 2025</p>
                     </div>
                 </div>
