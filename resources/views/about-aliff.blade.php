@@ -208,7 +208,7 @@
 /* Profile picture animation */
 /* Profile picture styling */
 .profile-pic {
-        width: 150px;
+        width: 190px;
         height: 150px;
         object-fit: cover;
         border-radius: 50%;
