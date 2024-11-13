@@ -110,19 +110,21 @@
                 <div class="card-body">
 
                 <div class="team-card text-center m-3 p-4 rounded">
-                <img src="{{ asset('Assets/hijab.png') }}" alt="Member Picture" class="img-fluid rounded-circle mb-3 profile-pic">
+                <img src="{{ asset('Assets/Imanm.jpeg') }}" alt="Member Picture" class="img-fluid rounded-circle mb-3 profile-pic">
             </div>
                     <!-- Details Inner Card -->
                     <div class="inner-card p-3 mb-3">
                         <h5 class="card-title">Details</h5>
                         <p class="card-text">
-                            Hi! I'm a passionate Software Developer and final-year student pursuing a Bachelor's in Computer Science (Software Engineering) at Universiti Malaysia Pahang Al Sultan Abdullah (UMPSA). I am dedicated to creating efficient and user-friendly web and mobile applications.
+                        Hi! I'm Iman Hajar Merican, a final-year Computer Science student specializing in 
+                        Graphics and Multimedia at Universiti Malaysia Pahang Al-Sultan Abdullah (UMPSA). 
+                        I’m passionate about blending design and technology to create impactful visual experiences
                         </p>
                     </div>
                     <!-- Education Inner Card -->
                     <div class="inner-card p-3">
                         <h5 class="card-title">Education</h5>
-                        <p>Bachelor of Computer Science (Software Engineering)</p>
+                        <p>Bachelor of Computer Science (Graphics and Multimedia)</p>
                         <p>Universiti Malaysia Pahang Al Sultan Abdullah (UMPSA)</p>
                         <p>Expected Graduation: 2025</p>
                     </div>
@@ -164,10 +166,6 @@
                                 <p class="mt-2">MySQL</p>
                             </div>
                             <div class="col-4 col-md-3 mb-4">
-                                <i class="fas fa-fire text-warning skill-icon"></i>
-                                <p class="mt-2">Firebase</p>
-                            </div>
-                            <div class="col-4 col-md-3 mb-4">
                                 <i class="fab fa-java text-danger skill-icon"></i>
                                 <p class="mt-2">Java</p>
                             </div>
@@ -192,8 +190,8 @@
                                 <p class="mt-2">Android Studio</p>
                             </div>
                             <div class="col-4 col-md-3 mb-4">
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="FlutterFlow" width="48" height="48">
-                                <p class="mt-2">FlutterFlow</p>
+                                <img src="https://www.svgrepo.com/show/342325/unity.svg" alt="Unity" width="48" height="48">
+                                <p class="mt-2">Unity</p>
                             </div>
                         </div>
                     </div>
