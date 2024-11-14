@@ -116,9 +116,7 @@
                     <div class="inner-card p-3 mb-3">
                         <h5 class="card-title">Details</h5>
                         <p class="card-text">
-                            Hi! I'm a passionate Software Developer and final-year student pursuing a Bachelor's in Computer Science (Software Engineering) at Universiti Malaysia Pahang Al Sultan Abdullah (UMPSA). I am dedicated to creating efficient and user-friendly web and mobile applications.
-                        </p>
-                    </div>
+                        Greetings! I'm Sandhiya, a Software Developer in my final year of studying Computer Science (Software Engineering) at Universiti Malaysia Pahang Al Sultan Abdullah (UMPSA). I’m passionate about building seamless and functional web and mobile applications that prioritize user experience and efficiency.                    </div>
                     <!-- Education Inner Card -->
                     <div class="inner-card p-3">
                         <h5 class="card-title">Education</h5>
